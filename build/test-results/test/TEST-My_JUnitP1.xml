@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="My_JUnitP1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-08T14:29:45" hostname="DESKTOP-OKS63RD" time="23.294">
+  <properties/>
+  <testcase name="writeSomthing" classname="My_JUnitP1" time="23.294"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1670509786518	geckodriver	INFO	Listening on 127.0.0.1:57735
+1670509787849	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "--remote-debugging-port" "51642" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:51642/" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileM1ZT4O"
+1670509788431	Marionette	INFO	Marionette enabled
+1670509788441	Marionette	INFO	Listening on port 51204
+WebDriver BiDi listening on ws://localhost:51642
+Read port: 51204
+1670509788638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileM1ZT4O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51642/devtools/browser/4ad22059-8173-4b6b-b343-1cc86ab52f2d
+Dec 08, 2022 8:29:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Jk7fixpOLBqPs8Ll1CI4HFyikeoml7Ub_Y2jZpe5d_o.js line 2 > eval line 2268 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670509806410	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+Dec 08, 2022 8:30:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 85
+1670509806464	Marionette	INFO	Stopped listening on port 51204
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1108: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\ASUS\AppData\Local\Temp\rust_mozprofileM1ZT4O\protections.sqlite
+]]></system-err>
+</testsuite>
